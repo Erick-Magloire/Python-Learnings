@@ -1,1 +1,2 @@
-this is my repository for TechIS projects
+this is my repository for concept examples and projects
+
