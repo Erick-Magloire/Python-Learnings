@@ -1,0 +1,138 @@
+***List Methods***
+Website - https://docs.python.org/3/tutorial/datastructures.html
+
+list.append(x)
+- Add an item to the end of the list. Equivalent to a[len(a):] = [x].
+
+list.extend(iterable)
+- Extend the list by appending all the items from the iterable. Equivalent to a[len(a):] = iterable.
+
+list.insert(i, x)
+- Insert an item at a given position. The first argument is the index of the element before which to insert, so a.insert(0, x) inserts at the front of the list, and a.insert(len(a), x) is equivalent to a.append(x).
+
+list.remove(x)
+- Remove the first item from the list whose value is equal to x. It raises a ValueError if there is no such item.
+
+list.pop([i])
+- Remove the item at the given position in the list, and return it. If no index is specified, a.pop() removes and returns the last item in the list. (The square brackets around the i in the method signature denote that the parameter is optional, not that you should type square brackets at that position. You will see this notation frequently in the Python Library Reference.)
+
+list.clear()
+- Remove all items from the list. Equivalent to del a[:].
+
+list.index(x[, start[, end]])
+- Return zero-based index in the list of the first item whose value is equal to x. Raises a ValueError if there is no such item.
+  The optional arguments start and end are interpreted as in the slice notation and are used to limit the search to a particular subsequence of the list. The returned index is computed relative to the beginning of the full sequence rather than the start argument.
+
+list.count(x)
+- Return the number of times x appears in the list.
+
+list.sort(*, key=None, reverse=False)
+- Sort the items of the list in place (the arguments can be used for sort customization, see sorted() for their explanation).
+
+list.reverse()
+- Reverse the elements of the list in place.
+
+- list.copy()
+Return a shallow copy of the list. Equivalent to a[:]
+
+-----------------------------------------------------------
+***Dictionary Methods***
+Website - https://www.tutorialspoint.com/python-mapping-types
+- it is mutable
+- unordered
+
+- Method len(d)
+    The len() method returns the number of elements in the dictionary.
+
+- Operation d[k]
+    It will return the item of d with the key ‘k’. It may raise KeyError if the key is not mapped.
+
+- Method iter(d)
+    This method will return an iterator over the keys of dictionary. We can also perform this taks by using iter(d.keys()).
+
+- Method get(key[, default])
+    The get() method will return the value from the key. The second argument is optional. If the key is not present, it will return the default value.
+
+- Method items()
+    It will return the items using (key, value) pairs format.
+
+- Method keys()
+    Return the list of different keys in the dictionary.
+
+-  Method values()
+Return the list of different values from the dictionary.
+
+- Method update(elem)
+    Modify the element elem in the dictionary.
+
+-----------------------------------------------------------
+***List of Operators***
+1. *Numeric*
+    + | addition
+    - | subtraction
+    * | multiplication
+    / | division
+    // | floor division
+    % | modulus, returns remainder after dividing)
+    ** | raising to power
+    abs() | absolute value of number
+    round() | rounds a number
+    bin() | get binary version of a number
+    hex() | get hexadecimal version of a number
+
+2. *Comparison*
+    < | less than
+    > | greater than
+    <= | less than or equal to
+    >= | greater than or equal to
+    == | equality, is equal to
+    != |  inequality, is not equal to
+
+3. *Logic*
+    - and
+    - or
+    - not
+
+4. *Assignment*
+    =  | Assign value of right side of expression to left side operand	x = y + z
+
+    += | Add and Assign: Add right side operand with left side operand and then assign to left operand	a += b
+
+    -= | Subtract AND: Subtract right operand from left operand and then assign to left operand: True if both operands are equal	a -= b
+
+    *= | Multiply AND: Multiply right operand with left operand and then assign to left operand	a *= b
+
+    /= | Divide AND: Divide left operand with right operand and then assign to left operand	a /= b
+
+    %= | Modulus AND: Takes modulus using left and right operands and assign result to left operand	a %= b
+
+    //= | Divide(floor) AND: Divide left operand with right operand and then assign the value(floor) to left operand	a //= b
+
+    **= | Exponent AND: Calculate exponent(raise power) value using operands and assign value to left operand	a **= b
+
+    &= | Performs Bitwise AND on operands and assign value to left operand	a &= b
+
+    |= | Performs Bitwise OR on operands and assign value to left operand	a |= b
+
+(For (Identity, Membership, and Bitwise operators / Website: (__ https://www.programiz.com/python-programming/operators __)  )
+
+5. *Identity*
+    - is : this returns "True"  if both variables are the same object (Identical)
+
+    - is not : this returns "True"  if both variables are not the same object (Not identical)
+
+6. *Membership*
+    - in : True if value/variable is found in the sequence
+
+    - not in : True if value/variable is NOT found in the sequence
+
+7. *Bitwise (Binary)*
+    &	|| Bitwise AND || example: x & y = 0 (0000 0000)
+    |	|| Bitwise OR  || example:	x | y = 14 (0000 1110)
+    ~	|| Bitwise NOT || example: ~x = -11 (1111 0101)
+    ^	|| Bitwise XOR || example: x ^ y = 14 (0000 1110)
+    >>	|| Bitwise right shift || example: x >> 2 = 2 (0000 0010)
+    <<	|| Bitwise left shift || example: x << 2 = 40 (0010 1000)
+
+-----------------------------------------------------------
+
