@@ -1,0 +1,120 @@
+Table of Contents - Function Library
+
+Course Flow:
+- Python Foundations 01
+- Python Foundations 02
+- Python Foundations 03
+- Python Foundations 04
+- Modules in Python Working with Files in Python
+- Object Oriented Programming Python
+
+
+A. Sequence Types
+    There are three kinds of sequence types:
+        - lists: mutable sequence
+        - tuples: immutable sequence
+        - range: immutable sequence
+
+    Other Topics Covered:
+        - set: an unordered collection of data type that is iterable, mutable and has no duplicate elements.
+        - dictionaries: dictionary is a collection which is ordered, mutable and does not allow duplicates
+        - boolean: True or False as a Data type
+
+B. Operators
+    - Common Operators
+        1.numeric operators
+        2.comparison operators
+        3.logical operators
+        4.assignment operators
+    - Others
+        5.identity operators
+        6.membership operators
+        7.bitwise operators
+
+C. Strings (cont.) & Operators
+    1. Defining Strings
+    2. String Immutability Test
+    3. String Concatenation (Combination)
+    4. String Length : check length of string
+    5. String Indexing : indexing of sequences starts from 0 , 1st position = 0
+    6. String Slicing : extract sub-sections of a string, slice strings using format [start:stop:step]
+                        you may also omit numbers and use only colons (:)
+
+
+D. Lists (cont.) & Operators
+    1. Accessing List Elements
+    2. Nested Lists : Lists can be embedded inside lists, multiple nesting is also supported
+    3. List Mutability Test
+    4. Append to List
+    5. Extend List : used to add multiple elements at the end of the list
+    6. Insert to List : can add an element at a given position in the list
+    7. Remove from List : remove specified an element from the list
+    8. Pop from List : removes value at specified index position
+    9. List Slicing : Used to extract a sub-section of the list
+    10. Reverse a List : Used to reverse the elements of a list, can be done in two ways:
+    11. Length of a List
+    12. Lists containing elements of similar data type
+    13. Count of an Element in a List : returns the number of occurrences of a given element in the list
+    14. Concatenate Lists : used to merge two lists and return a single list
+    15. Multiply List Content : Allows duplicating the list 'n' amount of times
+    16. Location of the First Occurrence : Indexing within List
+    17. Sort a List in Place : list.sort method sorts the list in ascending order
+    18. Create Copy of Sorted List : leave the original list unsorted, but create a new list with sorted items
+    19. Erase List Content : Erase all content from selected list
+
+E. Tuple (cont.) & Operators
+    1. Define a Tuple
+    2. Indexing in Tuples
+    3. Tuple Immutability Test
+    4. Concatenation of Tuples (Combining)
+    5. Multiplication (Duplication) of Tuples
+    6. Length of a Tuple
+    7. Min & Max Values of a Tuple
+    8. Count of an element in a Tuple
+    9. Location of the First Occurrence : Indexing within Tuple
+    10. Delete a Tuple : You cannot remove the elements in a tuple, but you can delete an entire tuple
+
+F. Type Conversions
+    1. convert int ---> float
+    2. convert float ---> int
+    3. convert string ---> int
+    4. convert int ---> string
+    5. convert string ---> float
+    6. convert float ---> string
+    7. convert list ---> tuple
+    8. convert tuple ---> list
+    9. convert list ---> set
+    10. convert set ---> list
+
+G. List Comprehension
+    - For loops can be written in a single line in python using list comprehension
+
+    #------------------------------------
+        **(Follow examples from Examples folder - Youtube Video 1)**
+H. If... Else Statements
+
+I. For Loop Statements
+
+J. While Statements
+
+    *'''See your If/Else, For, While Statements section for examples - info section outline'''
+        1. Indentation Matters
+        2. Nested Indentation
+        3. 'For' Loops vs 'While' Loops
+    #------------------------------------
+
+K. Functions - Functions are reusable pieces of code
+    1. Scope: a variable is only available from inside the region it is created
+
+    2. Local Scope: a variable created inside a function
+                    belongs to the local scope of that function
+                    and can only be used inside that function
+
+    3. Global Scope: a variable created in the main body of the Python code is
+                     a global variable and belongs to the global scope.
+                     global variables are available from within any scope, global and local
+
+    4. Lambda:      is a small anonymous function can take any number of arguments, but can only have one expression
+
+L. Raise() Keyword - Generate Custom Errors
+
