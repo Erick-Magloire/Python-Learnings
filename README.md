@@ -1,2 +1,2 @@
-Python Learnings
+Python Learnings - Understanding the language
 
